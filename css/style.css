@@ -1,0 +1,158 @@
+* {
+	overflow-x: hidden;	
+}
+
+body {
+	padding-top: 50px;	
+}
+
+section {
+	padding: 5vh 0;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron {
+	height: 95vh;
+	padding-top: 20vh;
+	background: url(http://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) center/cover;
+}
+.jumbotron h1 {
+	color: #fff;
+	font-size: 5em;
+	font-weight: bold;
+	text-shadow: 2px 2px 8px #000;
+}
+.jumbotron h1 small {
+	color: #fff;
+}
+.jumbotron .gradient {
+	background: linear-gradient(90deg, transparent, #255878, transparent);
+	padding: 5vh 0; 
+}
+
+/*SLOGAN*/
+
+[class*="img-"] {
+	height: 25vw;
+}
+.slogan {
+	height: auto;
+}
+.slogan h1 {
+	padding-bottom: 5vh;
+	font-size: 4em;
+	font-weight: bold;
+}
+.img-1 {
+	background: url(https://images.pexels.com/photos/327070/pexels-photo-327070.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) center/cover;
+}
+.img-2 {
+	background: url(https://images.pexels.com/photos/60049/torx-bits-metal-iron-60049.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) center/cover;
+}
+.img-3 {
+	background: url(https://images.pexels.com/photos/3327/construction-work-carpenter-tools.jpg?w=1260&h=750&auto=compress&cs=tinysrgb) center/cover;
+}
+.img-4 {
+	background: url(https://images.pexels.com/photos/107953/pexels-photo-107953.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) center/cover;
+}
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*TABLE*/
+
+
+/*GALLERY*/
+
+.gallery .bg {
+	background-color: #ecf0f1;	
+}
+.gallery .fa {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: 0;
+	background: #fff;
+	margin: 5px;
+	font-size: 25px;
+	cursor: pointer;
+}
+.gallery .fa-facebook {
+	color: #3B5998;	
+}
+.gallery .fa-twitter {
+	color: #4099FF;	
+}
+.gallery .fa-github {
+	color: #4183C4;	
+}
+.gallery .fa:hover {	
+	transition: 1s;
+}
+.gallery .fa-facebook:hover {
+	background: #3B5998;
+	color: #fff;
+}
+.gallery .fa-twitter:hover {
+	background: #4099FF;
+	color: #fff;
+}
+.gallery .fa-github:hover {
+	background: #4183C4;
+	color: #fff;
+}
+
+/*STORY*/
+.story hr {
+	background: linear-gradient(90deg, transparent, #95a5a6, transparent);
+	height: 2px;
+	width: 65vh;
+	border: 0;
+}
+.story {
+	padding-bottom: 10vh;
+	background-color: #F7F5E4;
+}
+.story h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	margin: 0;
+	text-transform: uppercase;
+}
+.story img {
+	width: 25vw;
+	height: auto;
+}
+/*SEND-FORM*/
+
+.send-form {
+	padding: 5vh 0;
+	background-color: #010101;
+	color: #fff;
+}
+.send-form .btn-margin {
+	margin-bottom: 5vh;
+}
+
+/*MEDIA QUERIS*/
+
+@media (max-width: 767px) {
+	[class*="img-"] {
+		height: 50vw;
+	}
+	.slogan h1 {
+		font-size: 3em;
+	}
+	.jumbotron h1 {
+		font-size: 3.5em;
+	}
+	.jumbotron h1 small {
+		font-size: 0.5em;
+	}
+	.jumbotron {
+		padding-top: 10vh;
+	}
+}

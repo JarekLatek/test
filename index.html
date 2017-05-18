@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Test</title>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	
+	<!--HEADER-->
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#1">Deepgraf</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+      			</button>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#1">Home</a></li>
+					<li><a href="#2">Gallery</a></li>
+					<li><a href="#3">Stats</a></li>
+					<li><a href="#5">Stories</a></li>
+					<li><a href="#4">Contact</a></li>
+				</ul>
+				<form class="navbar-form navbar-right" role="search">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search">
+						<span class="input-group-btn">
+						  	<button class="btn btn-default" type="button">GO!
+							</button>
+						</span>
+					</div>
+				</form>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container -->
+	</nav>
+	
+	<!--JUMBOTRON-->
+		<section class="jumbotron text-center" id="1">
+			<div class="container-fluid">
+				<div class="gradient">
+					<h1>Bootstrap Rulez<br><small>Create it by yourself.</small></h1>
+					<button type="button" class="btn btn-info btn-lg active">Go for it</button>
+				</div>
+			</div>
+		</section>
+		
+	<!--SLOGAN-->
+		<section class="slogan text-center">
+			<h1>Look what You can do!</h1>
+			<div class="container-fluid no-padding">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-3 img-1 img-responsive">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3 img-2 img-responsive">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3 img-3 img-responsive">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3 img-4 img-responsive">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	<!--TABLE-->
+		<section class="data" id="3">
+			<div class="container">
+				<div class="panel panel-default">
+  					<div class="panel-heading">Project costs overview</div>
+					<table class="table table-hover table-striped table-responsive">
+						<thead>
+							<tr>
+								<th>Project</th>
+								<th>Budget</th>
+								<th>Real cost</th>
+								<th>Summary</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Spring</td>
+								<td>1500 USD</td>
+								<td>1250 USD</td>
+								<td class="success">+ 250 USD</td>
+							</tr>
+							<tr>
+								<td>Bits</td>
+								<td>45000 USD</td>
+								<td>34500 USD</td>
+								<td class="success">+ 10500 USD</td>
+							</tr>
+							<tr>
+								<td>Garden</td>
+								<td>10000 USD</td>
+								<td>10500 USD</td>
+								<td class="danger">- 500 USD</td>
+							</tr>
+							<tr>
+								<td>Production line</td>
+								<td>50000 USD</td>
+								<td>55000 USD</td>
+								<td class="danger">- 5000 USD</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td></td>
+								<td></td>
+								<th>Total</th>
+								<td class="success">+ 5250 USD</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+		</section>
+		
+		<!--GALLERY-->
+		<section class="gallery" id="2">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-lg-3">
+						<div class="thumbnail bg">
+							<img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/VVFXBWXLK2.jpg" alt="New York">
+							<div class="caption">
+						        <h3>New York office</h3>
+						        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						        <p>
+						        <button class="btn btn-default fa fa-facebook"></button>
+						        <button class="btn btn-default fa fa-twitter"></button>
+						        <button class="btn btn-default fa fa-github"></button>
+						        </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-lg-3">
+						<div class="thumbnail bg">
+							<img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/D8CF15C18C.jpg" alt="London">
+							<div class="caption">
+						        <h3>London office</h3>
+						        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						        <p>
+						        <button class="btn btn-default fa fa-facebook"></button>
+						        <button class="btn btn-default fa fa-twitter"></button>
+						        <button class="btn btn-default fa fa-github"></button></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-lg-3">
+						<div class="thumbnail bg">
+							<img src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/IQB1MLDYDR.jpg" alt="Dubai">
+							<div class="caption">
+						        <h3>Dubai office</h3>
+						        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						        <p>
+						        <button class="btn btn-default fa fa-facebook"></button>
+						        <button class="btn btn-default fa fa-twitter"></button>
+						        <button class="btn btn-default fa fa-github"></button></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-lg-3">
+						<div class="thumbnail bg">
+							<img src="https://images.pexels.com/photos/54610/sydney-opera-house-australia-54610.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="Sydney">
+							<div class="caption">
+						        <h3>Sydney office</h3>
+						        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+						        <p>
+						        <button class="btn btn-default fa fa-facebook"></button>
+						        <button class="btn btn-default fa fa-twitter"></button>
+						        <button class="btn btn-default fa fa-github"></button></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	<!--STORY-->
+	<section class="story" id="5">
+		<div class="container">
+			<h3 class="header-line">Project stories</h3>
+			<hr>
+			<div class="media">
+			    <div class="media-left">
+			        <a href="#">
+			            <img class="media-object" src="https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="Work">
+			        </a>
+			    </div>
+			    <div class="media-body">
+			        <h4 class="media-heading">NY City Ballet Project</h4>
+			        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+			    </div>
+			</div>
+			<hr>
+			<div class="media">
+			    <div class="media-body">
+			        <h4 class="media-heading">Dubai Shake Web</h4>
+			        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+			    </div>
+			    <div class="media-right">
+			        <a href="#">
+			            <img class="media-object" src="https://images.pexels.com/photos/258106/pexels-photo-258106.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="Shake">
+			        </a>
+			    </div>
+			</div>
+			<hr>
+			<div class="media">
+			    <div class="media-left">
+			        <a href="#">
+			            <img class="media-object" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/B2C3AAA18D.jpg" alt="London Eye">
+			        </a>
+			    </div>
+			    <div class="media-body">
+			        <h4 class="media-heading">London Eye Project</h4>
+			        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+			    </div>
+			</div>
+		</div>
+	</section>
+	
+	<!--SEND-FORM & MAP-->
+		<section class="send-form" id="4">
+			<div class="container">
+				<div class="row">
+					<form class="col-xs-12 col-md-6">
+						<div class="form-group">
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+						</div>
+						<div class="form-group">
+							<label for="InputMessage">Comments</label>
+							<textarea name="InputMessage" id="InputMessage" class="form-control" rows="8" placeholder="Tell Us what You are thinking"></textarea>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> I agree with <a href="#">regulation terms</a>.
+							</label>
+						</div>
+						<button type="submit" class="btn btn-default btn-margin">Submit</button>
+					</form>
+					<div class="col-xs-12 col-lg-6">
+						<label for="map">Find Us</label>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9779.276506213151!2d20.94852675!3d52.21033435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1493901510438" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	<!--SMOOTH SCROLLING MENU-->
+		<script>
+			$(document).ready(function() {
+			    $('a[href^="#"]').on('click', function(event) {
+			
+					var target = $( $(this).attr('href') );
+					
+					if( target.length ) {
+						event.preventDefault();
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+					}
+				})	    
+		    });
+		</script>
+	<!--END-->
+	</body>
+</html>
